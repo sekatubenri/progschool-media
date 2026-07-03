@@ -9,9 +9,25 @@ const SITE = {
   url: 'https://progschool-media.vercel.app',
 };
 
-// バリューコマース・アフィBの審査通過後にここへリンクを追加
-const AFFILIATE_TOP = '';
-const AFFILIATE_BOTTOM = '';
+const AFFILIATE_TOP = `
+<div style="background:#f0fdf4;border:2px solid #16a34a;border-radius:8px;padding:16px;margin:24px 0;">
+  <p style="font-weight:bold;color:#15803d;margin:0 0 12px;">📚 プログラミング学習におすすめの入門書【Amazon】</p>
+  <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px;">
+    <li><a href="https://www.amazon.co.jp/dp/4297154463?linkCode=ll2&tag=mirainikibouw-22&linkId=6a00dc85fa14e8d4f3aac58e05b36db9&ref_=as_li_ss_tl" rel="nofollow" target="_blank" style="color:#1d4ed8;text-decoration:underline;">▶ これからはじめるプログラミング 改訂4版【Amazon】</a></li>
+    <li><a href="https://www.amazon.co.jp/dp/4297105799?linkCode=ll2&tag=mirainikibouw-22&linkId=da0c88022665ba016f394be517da4768&ref_=as_li_ss_tl" rel="nofollow" target="_blank" style="color:#1d4ed8;text-decoration:underline;">▶ はじめてのプログラミング【Amazon】</a></li>
+    <li><a href="https://www.amazon.co.jp/dp/4815615756?linkCode=ll2&tag=mirainikibouw-22&linkId=5824f86747c0b2e49012e2074a10cfde&ref_=as_li_ss_tl" rel="nofollow" target="_blank" style="color:#1d4ed8;text-decoration:underline;">▶ 1冊ですべて身につくJavaScript入門講座【Amazon】</a></li>
+  </ul>
+</div>`;
+
+const AFFILIATE_BOTTOM = `
+<div style="background:#fff0f0;border:2px solid #e00;border-radius:8px;padding:16px;margin:24px 0;">
+  <p style="font-weight:bold;color:#c00;margin:0 0 12px;">🛒 楽天で人気のプログラミング入門書</p>
+  <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px;">
+    <li><a href="https://hb.afl.rakuten.co.jp/ichiba/5570f8cd.82e98484.5570f8ce.5b744630/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F14334479%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9" target="_blank" rel="nofollow sponsored noopener" style="color:#c00;text-decoration:underline;">▶ プログラミング入門講座【楽天ブックス】</a></li>
+    <li><a href="https://hb.afl.rakuten.co.jp/ichiba/5570f8cd.82e98484.5570f8ce.5b744630/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakutenkobo-ebooks%2F482ccc51ff143df88b25fd2dddfd0dde%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9" target="_blank" rel="nofollow sponsored noopener" style="color:#c00;text-decoration:underline;">▶ Cプログラミング入門以前 第3版（電子書籍）【楽天Kobo】</a></li>
+    <li><a href="https://hb.afl.rakuten.co.jp/ichiba/5570f8cd.82e98484.5570f8ce.5b744630/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15652310%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9" target="_blank" rel="nofollow sponsored noopener" style="color:#c00;text-decoration:underline;">▶ これからはじめるプログラミング 基礎の基礎 改訂3版【楽天ブックス】</a></li>
+  </ul>
+</div>`;
 
 async function generateArticle() {
   const topicsPath = path.join(__dirname, '..', 'unused-topics.json');
@@ -67,13 +83,12 @@ contentの要件:
 
   const article = JSON.parse(jsonMatch[0]);
 
-  // アフィリエイトリンクを挿入（承認後に有効化）
-  if (AFFILIATE_TOP && article.content.includes('<h2')) {
+  if (article.content.includes('<h2')) {
     article.content = article.content.replace('<h2', AFFILIATE_TOP + '<h2');
+  } else {
+    article.content = AFFILIATE_TOP + article.content;
   }
-  if (AFFILIATE_BOTTOM) {
-    article.content = article.content + AFFILIATE_BOTTOM;
-  }
+  article.content = article.content + AFFILIATE_BOTTOM;
 
   fs.writeFileSync(
     path.join(contentDir, topic.filename),
