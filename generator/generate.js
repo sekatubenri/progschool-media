@@ -9,6 +9,10 @@ const SITE = {
   url: 'https://progschool-media.vercel.app',
 };
 
+// バリューコマース・アフィBの審査通過後にここへリンクを追加
+const AFFILIATE_TOP = '';
+const AFFILIATE_BOTTOM = '';
+
 async function generateArticle() {
   const topicsPath = path.join(__dirname, '..', 'unused-topics.json');
   const contentDir = path.join(__dirname, '..', 'content');
@@ -62,6 +66,14 @@ contentの要件:
   if (!jsonMatch) throw new Error('レスポンスにJSONが見つかりません');
 
   const article = JSON.parse(jsonMatch[0]);
+
+  // アフィリエイトリンクを挿入（承認後に有効化）
+  if (AFFILIATE_TOP && article.content.includes('<h2')) {
+    article.content = article.content.replace('<h2', AFFILIATE_TOP + '<h2');
+  }
+  if (AFFILIATE_BOTTOM) {
+    article.content = article.content + AFFILIATE_BOTTOM;
+  }
 
   fs.writeFileSync(
     path.join(contentDir, topic.filename),
