@@ -10,6 +10,12 @@ const SITE = {
 };
 
 const AFFILIATE_TOP = `
+<div style="background:#1e1b4b;border:2px solid #4f46e5;border-radius:8px;padding:20px;margin:24px 0;">
+  <p style="font-weight:bold;color:#a5b4fc;margin:0 0 4px;font-size:12px;">【PR】プログラミング学習後の転職先を探している方へ</p>
+  <p style="font-weight:bold;color:#fff;margin:0 0 12px;font-size:18px;">ITエンジニア転職ならTechGO（テックゴー）</p>
+  <a href="https://px.a8.net/svt/ejp?a8mat=4B648M+5KN3N6+5B0Y+HV7V6" rel="nofollow" style="display:inline-block;background:#4f46e5;color:#fff;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:bold;font-size:16px;">▶ ITエンジニアの転職なら【TechGO】無料登録</a>
+  <img border="0" width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=4B648M+5KN3N6+5B0Y+HV7V6" alt="">
+</div>
 <div style="background:#f0fdf4;border:2px solid #16a34a;border-radius:8px;padding:16px;margin:24px 0;">
   <p style="font-weight:bold;color:#15803d;margin:0 0 12px;">📚 プログラミング学習におすすめの入門書【Amazon】</p>
   <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px;">
