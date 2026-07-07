@@ -1,10 +1,5 @@
 [
   {
-    "filename": "kotlin-android-guide.json",
-    "title": "Kotlin・Androidアプリ開発入門ガイド",
-    "category": "language"
-  },
-  {
     "filename": "flutter-guide.json",
     "title": "Flutter入門｜クロスプラットフォームアプリ開発",
     "category": "language"
