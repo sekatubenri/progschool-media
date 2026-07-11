@@ -1,10 +1,5 @@
 [
   {
-    "filename": "cpp-guide.json",
-    "title": "C++入門｜オブジェクト指向プログラミング基礎",
-    "category": "language"
-  },
-  {
     "filename": "rust-lang-guide.json",
     "title": "Rust言語入門｜次世代システム言語を学ぶ",
     "category": "language"
