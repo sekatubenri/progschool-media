@@ -1,10 +1,5 @@
 [
   {
-    "filename": "rust-lang-guide.json",
-    "title": "Rust言語入門｜次世代システム言語を学ぶ",
-    "category": "language"
-  },
-  {
     "filename": "vue-guide.json",
     "title": "Vue.js入門｜リアクティブWebアプリ開発",
     "category": "language"
