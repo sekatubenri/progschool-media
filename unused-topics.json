@@ -1,10 +1,5 @@
 [
   {
-    "filename": "vue-guide.json",
-    "title": "Vue.js入門｜リアクティブWebアプリ開発",
-    "category": "language"
-  },
-  {
     "filename": "angular-guide.json",
     "title": "Angular入門｜エンタープライズWebアプリ開発",
     "category": "language"
