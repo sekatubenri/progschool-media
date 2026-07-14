@@ -1,10 +1,5 @@
 [
   {
-    "filename": "angular-guide.json",
-    "title": "Angular入門｜エンタープライズWebアプリ開発",
-    "category": "language"
-  },
-  {
     "filename": "svelte-guide.json",
     "title": "Svelte入門｜軽量フロントエンドフレームワーク",
     "category": "language"
