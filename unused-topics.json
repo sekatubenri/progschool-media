@@ -1,10 +1,5 @@
 [
   {
-    "filename": "svelte-guide.json",
-    "title": "Svelte入門｜軽量フロントエンドフレームワーク",
-    "category": "language"
-  },
-  {
     "filename": "nuxt-guide.json",
     "title": "Nuxt.js入門｜Vue.jsのフルスタックフレームワーク",
     "category": "language"
