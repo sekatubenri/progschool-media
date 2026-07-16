@@ -1,10 +1,5 @@
 [
   {
-    "filename": "nuxt-guide.json",
-    "title": "Nuxt.js入門｜Vue.jsのフルスタックフレームワーク",
-    "category": "language"
-  },
-  {
     "filename": "nestjs-guide.json",
     "title": "NestJS入門｜Node.jsバックエンドフレームワーク",
     "category": "language"
