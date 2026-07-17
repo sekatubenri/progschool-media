@@ -1,10 +1,5 @@
 [
   {
-    "filename": "nestjs-guide.json",
-    "title": "NestJS入門｜Node.jsバックエンドフレームワーク",
-    "category": "language"
-  },
-  {
     "filename": "fastapi-guide.json",
     "title": "FastAPI入門｜PythonでAPIを高速開発する方法",
     "category": "language"
