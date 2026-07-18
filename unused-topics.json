@@ -1,10 +1,5 @@
 [
   {
-    "filename": "fastapi-guide.json",
-    "title": "FastAPI入門｜PythonでAPIを高速開発する方法",
-    "category": "language"
-  },
-  {
     "filename": "django-rest-guide.json",
     "title": "Django REST Framework入門ガイド",
     "category": "language"
