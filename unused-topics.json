@@ -1,10 +1,5 @@
 [
   {
-    "filename": "graphql-guide.json",
-    "title": "GraphQL入門｜REST APIとの違いと使い方",
-    "category": "language"
-  },
-  {
     "filename": "websocket-guide.json",
     "title": "WebSocket入門｜リアルタイム通信の仕組み",
     "category": "language"
