@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: 'プログラミングスクールナビ',
   },
   verification: {
-    google: 'XcyMImXtiMlMj5NBeiKQBcD_Vqrw3EDW0TDFBVTAtaA',
+    google: 'iMLrI6HzTiZTe8VqNIkuvHAyDDjzXRBwbXJosUYytdE',
   },
 }
 
