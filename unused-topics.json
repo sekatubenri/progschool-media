@@ -1,10 +1,5 @@
 [
   {
-    "filename": "websocket-guide.json",
-    "title": "WebSocket入門｜リアルタイム通信の仕組み",
-    "category": "language"
-  },
-  {
     "filename": "pwa-guide.json",
     "title": "PWA入門｜Webアプリをスマホアプリ化する方法",
     "category": "language"
