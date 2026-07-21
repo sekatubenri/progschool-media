@@ -3,6 +3,7 @@ import Script from 'next/script'
 import './globals.css'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://prog-select.com'),
   title: {
     default: 'プログラミングスクールナビ｜未経験からエンジニアへ',
     template: '%s｜プログラミングスクールナビ',

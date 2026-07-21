@@ -6,7 +6,7 @@ const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
 const SITE = {
   name: 'プログラミングスクールナビ',
-  url: 'https://progschool-media.vercel.app',
+  url: 'https://prog-select.com',
 };
 
 const AFFILIATE_TOP = `
