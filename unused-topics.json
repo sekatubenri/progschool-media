@@ -1,10 +1,5 @@
 [
   {
-    "filename": "pwa-guide.json",
-    "title": "PWA入門｜Webアプリをスマホアプリ化する方法",
-    "category": "language"
-  },
-  {
     "filename": "electron-guide.json",
     "title": "Electron入門｜JavaScriptでデスクトップアプリ開発",
     "category": "language"
