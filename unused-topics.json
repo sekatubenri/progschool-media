@@ -1,10 +1,5 @@
 [
   {
-    "filename": "electron-guide.json",
-    "title": "Electron入門｜JavaScriptでデスクトップアプリ開発",
-    "category": "language"
-  },
-  {
     "filename": "tailwind-guide.json",
     "title": "Tailwind CSS入門｜ユーティリティファーストCSSの使い方",
     "category": "language"
