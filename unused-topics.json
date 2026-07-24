@@ -1,10 +1,5 @@
 [
   {
-    "filename": "tailwind-guide.json",
-    "title": "Tailwind CSS入門｜ユーティリティファーストCSSの使い方",
-    "category": "language"
-  },
-  {
     "filename": "sass-guide.json",
     "title": "Sass/SCSS入門｜CSSをより効率的に書く方法",
     "category": "language"
