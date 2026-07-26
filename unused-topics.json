@@ -1,10 +1,5 @@
 [
   {
-    "filename": "threejs-guide.json",
-    "title": "Three.js入門｜ブラウザで3Dグラフィックスを作る",
-    "category": "language"
-  },
-  {
     "filename": "tensorflow-guide.json",
     "title": "TensorFlow入門｜機械学習モデルの作り方",
     "category": "language"
