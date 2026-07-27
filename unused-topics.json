@@ -1,10 +1,5 @@
 [
   {
-    "filename": "tensorflow-guide.json",
-    "title": "TensorFlow入門｜機械学習モデルの作り方",
-    "category": "language"
-  },
-  {
     "filename": "langchain-guide.json",
     "title": "LangChain入門｜AIアプリ開発の基礎",
     "category": "language"
