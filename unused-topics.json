@@ -1,10 +1,5 @@
 [
   {
-    "filename": "linux-beginner.json",
-    "title": "Linux入門｜コマンドライン基礎を学ぶ",
-    "category": "language"
-  },
-  {
     "filename": "vim-guide.json",
     "title": "Vim入門｜エディタ操作をマスターする",
     "category": "language"
