@@ -1,10 +1,5 @@
 [
   {
-    "filename": "vim-guide.json",
-    "title": "Vim入門｜エディタ操作をマスターする",
-    "category": "language"
-  },
-  {
     "filename": "vscode-guide.json",
     "title": "VS Codeの使い方｜おすすめ拡張機能と設定",
     "category": "beginner"
