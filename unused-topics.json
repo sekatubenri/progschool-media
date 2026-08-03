@@ -1,10 +1,5 @@
 [
   {
-    "filename": "vscode-guide.json",
-    "title": "VS Codeの使い方｜おすすめ拡張機能と設定",
-    "category": "beginner"
-  },
-  {
     "filename": "git-advanced.json",
     "title": "Git上級テクニック｜rebase・cherry-pick・stash完全ガイド",
     "category": "language"
