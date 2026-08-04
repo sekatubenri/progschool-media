@@ -1,10 +1,5 @@
 [
   {
-    "filename": "git-advanced.json",
-    "title": "Git上級テクニック｜rebase・cherry-pick・stash完全ガイド",
-    "category": "language"
-  },
-  {
     "filename": "api-design-guide.json",
     "title": "REST API設計のベストプラクティス完全ガイド",
     "category": "language"
