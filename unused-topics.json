@@ -1,10 +1,5 @@
 [
   {
-    "filename": "api-design-guide.json",
-    "title": "REST API設計のベストプラクティス完全ガイド",
-    "category": "language"
-  },
-  {
     "filename": "microservices-guide.json",
     "title": "マイクロサービスアーキテクチャ入門ガイド",
     "category": "career"
