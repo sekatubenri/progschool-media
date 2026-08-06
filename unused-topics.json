@@ -1,10 +1,5 @@
 [
   {
-    "filename": "microservices-guide.json",
-    "title": "マイクロサービスアーキテクチャ入門ガイド",
-    "category": "career"
-  },
-  {
     "filename": "security-basics.json",
     "title": "Webセキュリティ基礎｜XSS・SQLインジェクション対策",
     "category": "language"
