@@ -1,10 +1,5 @@
 [
   {
-    "filename": "security-basics.json",
-    "title": "Webセキュリティ基礎｜XSS・SQLインジェクション対策",
-    "category": "language"
-  },
-  {
     "filename": "programming-english.json",
     "title": "エンジニアの英語学習法｜技術英語を身につける",
     "category": "beginner"
