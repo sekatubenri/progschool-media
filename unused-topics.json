@@ -1,17 +1,116 @@
 [
   {
-    "filename": "freelance-engineer.json",
-    "title": "フリーランスエンジニア入門｜独立までの準備",
-    "category": "career"
+    "filename": "engineer-job-site-recommend.json",
+    "title": "エンジニア転職サイトおすすめ比較｜求人数・特徴・エージェントとの違い",
+    "category": "career",
+    "keyword": "エンジニア転職サイトおすすめ"
   },
   {
-    "filename": "aws-certification.json",
-    "title": "AWS認定資格の種類・難易度・勉強方法",
-    "category": "career"
+    "filename": "programming-school-yametoke.json",
+    "title": "プログラミングスクールはやめとけと言われる理由｜後悔しない人の特徴と対策",
+    "category": "school",
+    "keyword": "プログラミングスクール やめとけ"
   },
   {
-    "filename": "programming-motivation.json",
-    "title": "プログラミング学習のモチベーションを維持する方法",
-    "category": "beginner"
+    "filename": "school-vs-vocational-college.json",
+    "title": "プログラミングスクールと専門学校の違い｜費用・期間・就職力で徹底比較",
+    "category": "school",
+    "keyword": "プログラミングスクール 専門学校 違い"
+  },
+  {
+    "filename": "programming-school-university-student.json",
+    "title": "大学生におすすめのプログラミングスクール｜学割・就活に強いスクール比較",
+    "category": "school",
+    "keyword": "プログラミングスクール 大学生"
+  },
+  {
+    "filename": "python-school-recommend.json",
+    "title": "Pythonが学べるプログラミングスクールおすすめ比較｜AI・データ分析にも",
+    "category": "school",
+    "keyword": "python プログラミングスクール おすすめ"
+  },
+  {
+    "filename": "webdesign-school-cost-comparison.json",
+    "title": "Webデザインスクールの費用比較｜相場と安くて質の高いスクールの選び方",
+    "category": "school",
+    "keyword": "webデザイン スクール 費用 比較"
+  },
+  {
+    "filename": "engineer-motivation-inexperienced.json",
+    "title": "未経験エンジニア転職の志望動機例文｜面接・書類で評価される書き方",
+    "category": "career",
+    "keyword": "エンジニア 志望動機 未経験 転職"
+  },
+  {
+    "filename": "engineer-career-change-50s.json",
+    "title": "50代のエンジニア転職の現実｜未経験・経験者別の可能性と成功のコツ",
+    "category": "career",
+    "keyword": "50代 エンジニア 転職 現実"
+  },
+  {
+    "filename": "inexperienced-engineer-hard.json",
+    "title": "未経験エンジニア転職がつらいと感じる理由｜入社後の壁と乗り越え方",
+    "category": "career",
+    "keyword": "エンジニア 未経験 転職 つらい"
+  },
+  {
+    "filename": "engineer-types-for-beginners.json",
+    "title": "エンジニアの種類一覧｜未経験におすすめの職種と仕事内容・難易度を比較",
+    "category": "beginner",
+    "keyword": "エンジニア 種類 未経験 おすすめ"
+  },
+  {
+    "filename": "web-engineer-vs-web-designer.json",
+    "title": "WebエンジニアとWebデザイナーの違い｜仕事内容・年収・向いている人",
+    "category": "career",
+    "keyword": "web エンジニア web デザイナー違い"
+  },
+  {
+    "filename": "python-learning-sites.json",
+    "title": "Python学習サイトおすすめ10選｜無料・有料別に初心者向けを徹底比較",
+    "category": "language",
+    "keyword": "python 学習 サイト おすすめ"
+  },
+  {
+    "filename": "python-books-recommend.json",
+    "title": "Python学習本おすすめ10選｜初心者から中級者までレベル別に厳選",
+    "category": "language",
+    "keyword": "python 学習 本 おすすめ"
+  },
+  {
+    "filename": "python3-certification-basic-exam.json",
+    "title": "Python3エンジニア認定基礎試験の費用・難易度｜勉強方法と合格のコツ",
+    "category": "language",
+    "keyword": "python 3 エンジニア認定基礎試験 費用"
+  },
+  {
+    "filename": "c-vs-python.json",
+    "title": "C言語とPythonの違い｜初心者はどっちから学ぶべき？学習方法を解説",
+    "category": "language",
+    "keyword": "c 言語 python 違いの学習方法"
+  },
+  {
+    "filename": "java-vs-python.json",
+    "title": "JavaとPythonの違い｜学習難易度・年収・用途で比較してどっちを選ぶ？",
+    "category": "language",
+    "keyword": "java python 違い学習難易度"
+  },
+  {
+    "filename": "programming-practice-games-free.json",
+    "title": "プログラミング練習ゲーム無料おすすめ｜遊びながら学べるサイト・アプリ",
+    "category": "beginner",
+    "keyword": "プログラミング 練習 ゲーム 無料"
+  },
+  {
+    "filename": "self-study-requirements.json",
+    "title": "プログラミング独学に必要なもの一覧｜パソコン・教材・環境の準備リスト",
+    "category": "beginner",
+    "keyword": "プログラミング 独学 必要 な もの"
+  },
+  {
+    "filename": "webdesign-copy-practice.json",
+    "title": "Webデザイン模写のやり方｜初心者向けの手順とおすすめ練習サイト",
+    "category": "beginner",
+    "keyword": "webデザイン 模写 やり方 初心者"
   }
 ]
